@@ -1,0 +1,659 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto Slab', serif;
+    background-color: rgb(218, 224, 233);
+    background-color: rgb(20,30,48);
+    margin: 0;
+}
+
+.header{
+    z-index: 2;
+    color: white;
+    position: absolute;
+    padding: 0 1rem;
+    width: 100%;
+    height: 10rem;
+    max-width: 150rem; 
+}
+
+.navbar_hero{
+    margin: 0 auto;
+    visibility: hidden;
+    margin-top: 3rem;
+}
+
+.navbar_hero > ul{
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    font-size: 1.4rem;
+}
+
+.navbar_hero > ul > li > a {
+    color: #000;
+}
+
+.navbar_hero > ul > li{
+    list-style-type: none;
+}
+
+.header_logo{
+    margin-left: .2rem;
+    margin-top: 1rem;
+    font-size: 1.5rem;
+}
+
+.nav_list > li{
+    list-style-type: none;
+}
+
+.hamburger2{
+    color: #000;
+}
+
+.content{
+    height: 100%;
+    width: 100%;
+}
+
+.hero_container{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    z-index: 1;
+    margin: 0 auto;
+    line-height: .5;
+    min-height: 100vh;
+    background-size: cover;
+    background-image: url(christina-deravedisian-VDOhTPhJZb0-unsplash.jpg); 
+    padding: 2rem;
+}
+
+.hero_content{
+    position: absolute;
+    top: 30%;
+}
+
+.hero_heading{
+    font-size: 3.6rem;
+    font-weight: 500;
+    font-style: bold;
+    margin-bottom: 2rem;
+    padding-top: .5rem;
+}
+
+.hero_subheading{
+    font-size: 1.6rem;
+    font-weight: 700;
+    font-style: bold;
+}
+
+.hero_intro{
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+
+.projectsBtn{
+    border: none;
+    position: relative;
+    width: 8rem;
+    padding: 1rem;
+    border-radius: 25px;
+    background-color: rgb(62, 62, 211);
+    font-weight: 400;
+    font-size: 1.1rem;
+    color: #fff;
+    margin-top: .8rem;
+}
+
+.projectsBtn:hover{
+    cursor: pointer;
+}
+
+/* About */
+
+.about_container{
+    background-color: rgb(20,30,48);
+    display: flex;
+    justify-content: center;   
+    flex-wrap: wrap;
+    padding: 2rem;
+    max-width: 100rem;
+    color: white;
+}
+
+.about_heading{
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.about_heading > h2{
+    font-weight: 550;
+    font-size: 2rem;
+}
+
+.about_paragraph{
+    line-height: 1.5;
+}
+
+.profile_card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px; 
+    min-width: 21.25rem;
+    max-width: 30rem;
+    /* revisit width */
+    background: linear-gradient(to left top, rgb(20, 30, 48), rgba(227, 227, 227, 0.3));
+    padding: 0 2rem;
+    margin-top: 4em;
+}
+
+.profile_sub{
+    text-align: center;
+}
+
+.profile_sub > h2{
+    font-size: 1.6rem;
+}
+
+.profile_info{
+    display: flex;
+    flex-direction: column;
+    line-height: .8rem;
+    max-width: 31.25rem;
+}
+
+.profile_info > p:nth-child(4){
+    font-size: .8rem;
+    margin-left: 1rem;
+}
+
+.profile_skills_header{
+    height: 4.5rem;
+}
+
+.profile_skills_header > h4{
+    font-size: 1.4rem;
+    font-weight: 500;
+}
+
+.profile_skills{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.fa-brands{
+    font-size: 3.5rem;
+    margin: 10px;
+}
+
+.fa-brands:hover{
+    opacity: 75%;
+}
+
+/* Projects */
+
+/* .projects_container{
+    margin: 0 auto;
+    padding: 2rem;
+    width: 100%;
+    color: white;
+    max-width: 100rem;
+} */
+
+.projects_container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 2rem;
+    max-width: 100rem;
+    color: white;
+}
+
+.projects_header{
+    font-weight: 550;
+    font-size: 2rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.projects_header > p{
+    display: block;
+    line-height: 1.2;
+}
+
+.tech_card_container{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap; 
+    gap: 5px;
+    padding: 1rem;
+    /* margin-top: 1rem; */
+}
+
+.card_info{
+    height: 2rem;
+}
+
+.tech_card{
+    border-radius: 5px;
+    background: rgba(142, 139, 139, 0.2);
+    padding: .3rem;
+    /* padding: 10px; */
+    font-size: 1rem;
+    margin: 2px;
+
+}
+
+.projectCard{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    /* min-width: 20.375rem; */
+    /* max-width: 40rem; */
+    max-width: 40rem; 
+    /* min-width: 5rem; */
+    border-radius: 10px; 
+    background: rgba(227, 227, 227, 0.1);
+    /* padding: 0rem 1rem; */
+    padding-bottom: 1rem;
+    margin: 2.5rem auto;
+    line-height: 1.2;
+}
+
+.card_header{
+    font-size: 1.6rem;
+}
+
+.card_info{
+    max-width: 26rem;
+    margin-bottom: 1.5rem;
+}
+
+.projectCard > img{
+    /* max-height: 15rem;
+    max-width: 18rem; */
+    width: 90%;
+    border-radius: 5px;
+}
+
+.repo_link{
+    color:rgb(206, 55, 55);
+    position: relative;
+    top: .1rem;
+}
+
+.contact_container{
+    max-width: 100rem;
+}
+
+.footer_links{
+    margin: 1rem;
+    bottom: 2rem;
+}
+
+.footer_links > a{
+    padding: .3rem;
+}
+
+.footer_links > a > i{
+    font-size: 2.5rem;
+    color: rgb(213, 204, 204);
+}
+
+/* .footer_links > a > i:hover{
+    cursor: pointer;
+    transform: scale(1.2);
+} */
+
+@media screen and (min-width: 800px){
+    
+    /* *{
+        font-size: 20px;
+    } */ 
+
+    /* check the font size responsiveness  */
+
+    .about_container,
+    .projects_container,
+    .contact_container{
+        margin: 0 3rem;
+    }
+
+    /* .profile_card{
+        padding: 0 1rem;
+        padding-bottom: .5rem;
+        margin-top: 2rem;
+    } */
+
+    /* .projectCard{
+        /* max-width: 45rem; */
+        /* max-width: 50rem; */
+        /* margin: 2rem auto;
+        padding: 0 1rem;
+        padding-bottom: 2rem; */
+        /* just changed these three lines */
+        /* display: flex;
+        flex-direction: column;
+        align-items: center; 
+    }
+        */
+
+
+    /* .profile_info{
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+    } */
+
+    .projectCard > img{
+        /* margin-top: 1rem; */
+        /* height: 20rem;
+        width: 27rem; */
+    }
+} 
+
+
+@media screen and (min-width: 1400px){
+   /* changed from 1200px, also changed the medium media query to 1000px; */
+    *{
+        font-size: 24px;
+    }
+
+    .navbar_hero > ul > li > a{
+        font-size: 1.3rem;
+    }
+
+    .about_container,
+    .projects_container,
+    .contact_container{
+        margin: 0 8rem;
+        /* margin: 2rem 4rem; */
+    }
+
+    .profile_card{
+        width: 50%;
+        padding: 0 1rem;
+        padding-bottom: 1rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .profile_info{
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+    }
+    
+    /* .project_cardContainer{
+        display:flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 100%;
+        height: 80vh;
+    }  */
+    
+    .project_cardContainer{
+        display: flex;
+        justify-content: center;
+        max-width: 150vw;
+        flex-wrap: wrap;
+        /* check flex-wrap again, see if want to keep as 3 columns */
+        /* margin: 0 auto; */
+    }
+    
+    .projectCard{
+        display: flex;
+        width: 100%;
+        flex: 1;
+        flex-direction: column;
+        align-items: center;
+        margin: 2rem 1rem;
+        padding: 0 2rem;
+        padding-bottom: .5rem;
+    }
+    
+    .projectCard > img{
+        /* height: 18rem;
+        width: 22rem; */
+        width: 100%;
+        min-width: 26rem;
+        margin-top: 2rem;
+        margin-bottom: 1rem;
+    }
+
+    .tech_card_container{
+        height: 4rem;
+        gap: .5rem;
+    }
+} 
+
+/* contacts */
+
+textarea{
+    min-width: 5rem;
+}
+
+.contact_container{
+    margin: 0 auto;
+    padding: 0 2rem;
+    width: 100%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-width: 10rem;
+}
+
+
+.contact_text{
+    margin-bottom: 2rem;
+    text-align: center;
+    line-height: 1.2rem;
+}
+
+.contact_header{
+    font-weight: 550;
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.contact_container > form{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2rem;
+    /* height: 25vh; */
+    /* justify-content: space-between;  */
+    /* align-items: start;  */
+    /* justify-content: center; */
+    /* width: 10rem; */
+}
+
+.contact_container > form > input{ 
+    margin-bottom: 1rem;
+}
+
+/* .msg_form{
+    width: 100%;
+    text-align: left;
+    position: relative;
+} */
+
+.contact_container > form > button{
+    margin: 0 auto;
+    margin-top: 1.25rem;
+    width: 7rem;
+    padding: .5rem;
+    border-radius: 5px;
+    position: relative;
+    background-color: rgb(228, 93, 93);
+    color: white;
+}
+h2:after{ 
+    content: '';
+    display: block;
+    width: 300px;
+    height: 1px;
+    background: rgb(252, 250, 250);
+    margin: 0.5em auto;
+}
+
+.footer_container{
+    color: white;
+    text-align:center;
+    margin: 0 auto;
+    padding: 1rem;
+    width: 100%;
+}
+
+/* sidebar */
+
+.sidebar > ul > li{
+    text-decoration: none;
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+.top_navbar{
+    display:flex;
+    justify-content: end;
+}
+
+
+.wrapper .sidebar{
+    background: rgb(20,30,48);
+    position: fixed;
+    display: flex;
+    align-items: center;
+    top: 0;
+    left: 0;
+    width: 225px;
+    height: 100%;
+    padding: 20px 0;
+    padding-bottom: 150px;
+    transition: all 0.5s ease;
+    z-index: 2;
+}
+
+.wrapper .sidebar ul li a{
+    display: block;
+    padding: 13px 30px;
+    border-bottom: 1px solid #10558d;
+    color: rgb(241, 237, 237);
+    font-size: 25px;
+    position: relative;
+    z-index: 2;
+}
+
+.wrapper .sidebar ul li a .icon{
+    color: #dee4ec;
+    width: 30px;
+    display: inline-block;
+}
+
+.wrapper .sidebar ul li a:hover,
+.wrapper .sidebar ul li a.active{
+    color: #0c7db1;
+    background:white;
+    border-right: 2px solid rgb(5, 68, 104);
+}
+
+.wrapper .sidebar ul li a:hover .icon,
+.wrapper .sidebar ul li a.active .icon{
+    color: #0c7db1;
+}
+
+.wrapper .sidebar ul li a:hover::before,
+.wrapper .sidebar ul li a.active::before{
+    display: block;
+}
+
+.wrapper .section{
+    width: calc(100% - 225px);
+    margin-right: 225px;
+    transition: all 0.5s ease;
+}
+
+.wrapper .section .top_navbar{
+    /* background: rgb(7, 105, 185); */
+    /* background-color: transparent;
+    z-index: 2;
+    max-width: 100rem;  */
+    z-index: 1;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    padding: 0 5px;
+    position: relative;
+    /* just changed this */
+
+}
+
+.hamburger2{
+    margin-top: 1.6rem;
+}
+
+.wrapper .section .top_navbar .hamburger2 a{
+    font-size: 40px;
+    /* color: #f4fbff; */ 
+    /* check this later */
+    color: #000;
+}
+
+.wrapper .section .top_navbar .hamburger2 a:hover{
+    /* color: #a2ecff; */
+}
+
+body.active .wrapper .sidebar{
+    left: -225px;
+}
+
+body.active .wrapper .section{
+    margin-left: 0;
+    width: 100%;
+}
+
+.sidebar_close{
+   position: absolute; 
+   top: .6rem;
+   right: .4rem;
+   font-size: 2rem;
+   color: white;
+   padding: 1rem;
+   z-index: 5;
+}
+
+.sidebar_close:hover {
+    cursor: pointer;
+    opacity: 50%;
+}
+
+@media screen and (min-width: 540px){
+    .hamburger2{
+        visibility: hidden;
+    } 
+    
+    .navbar_hero{
+        visibility: visible;
+    }
+
+    .hero_container{
+        background-size: 200vh 140vh;
+    }
+} 
