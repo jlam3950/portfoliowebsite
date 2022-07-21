@@ -251,7 +251,6 @@ body{
     /* padding: 10px; */
     font-size: 1rem;
     margin: 2px;
-
 }
 
 .projectCard{
@@ -266,7 +265,7 @@ body{
     border-radius: 10px; 
     background: rgba(227, 227, 227, 0.1);
     /* padding: 0rem 1rem; */
-    padding-bottom: 1rem;
+    /* padding-bottom: 1rem; */
     margin: 2.5rem auto;
     line-height: 1.2;
 }
@@ -288,9 +287,16 @@ body{
 }
 
 .repo_link{
-    color:rgb(206, 55, 55);
     position: relative;
-    top: .1rem;
+    background-color: rgb(62, 62, 211);
+    color:rgb(230, 224, 224);
+    padding: .5rem 1rem;
+    margin: .5rem;
+    font-size: .8rem;
+}
+
+.repo_link:hover{
+    cursor: pointer;
 }
 
 .contact_container{
@@ -365,9 +371,9 @@ body{
 
 @media screen and (min-width: 1400px){
    /* changed from 1200px, also changed the medium media query to 1000px; */
-    *{
+    /* *{
         font-size: 24px;
-    }
+    } */
 
     .navbar_hero > ul > li > a{
         font-size: 1.3rem;
@@ -419,8 +425,12 @@ body{
         flex-direction: column;
         align-items: center;
         margin: 2rem 1rem;
-        padding: 0 2rem;
+        padding: 0 1.5rem;
         padding-bottom: .5rem;
+    }
+
+    .repo_link{
+        margin: 0;
     }
     
     .projectCard > img{
@@ -429,7 +439,7 @@ body{
         width: 100%;
         min-width: 26rem;
         margin-top: 2rem;
-        margin-bottom: 1rem;
+        margin-bottom: .5rem;
     }
 
     .tech_card_container{
