@@ -189,7 +189,7 @@ body{
 }
 
 .fa-brands{
-    font-size: 3.5rem;
+    font-size: 2.7rem;
     margin: 10px;
 }
 
@@ -198,14 +198,6 @@ body{
 }
 
 /* Projects */
-
-/* .projects_container{
-    margin: 0 auto;
-    padding: 2rem;
-    width: 100%;
-    color: white;
-    max-width: 100rem;
-} */
 
 .projects_container{
     display: flex;
@@ -237,7 +229,6 @@ body{
     flex-wrap: wrap; 
     gap: 5px;
     padding: 1rem;
-    /* margin-top: 1rem; */
 }
 
 .card_info{
@@ -248,7 +239,6 @@ body{
     border-radius: 5px;
     background: rgba(142, 139, 139, 0.2);
     padding: .3rem;
-    /* padding: 10px; */
     font-size: 1rem;
     margin: 2px;
 }
@@ -258,14 +248,9 @@ body{
     flex-direction: column;
     align-items: center;
     text-align: center;
-    /* min-width: 20.375rem; */
-    /* max-width: 40rem; */
     max-width: 40rem; 
-    /* min-width: 5rem; */
     border-radius: 10px; 
     background: rgba(227, 227, 227, 0.1);
-    /* padding: 0rem 1rem; */
-    /* padding-bottom: 1rem; */
     margin: 2.5rem auto;
     line-height: 1.2;
 }
@@ -280,8 +265,7 @@ body{
 }
 
 .projectCard > img{
-    /* max-height: 15rem;
-    max-width: 18rem; */
+    max-height: 21rem;
     width: 90%;
     border-radius: 5px;
 }
@@ -323,57 +307,16 @@ body{
 } */
 
 @media screen and (min-width: 800px){
-    
-    /* *{
-        font-size: 20px;
-    } */ 
-    /* check the font size responsiveness  */
 
     .about_container,
     .projects_container,
     .contact_container{
         margin: 0 3rem;
     }
-
-    /* .profile_card{
-        padding: 0 1rem;
-        padding-bottom: .5rem;
-        margin-top: 2rem;
-    } */
-
-    /* .projectCard{
-        /* max-width: 45rem; */
-        /* max-width: 50rem; */
-        /* margin: 2rem auto;
-        padding: 0 1rem;
-        padding-bottom: 2rem; */
-        /* just changed these three lines */
-        /* display: flex;
-        flex-direction: column;
-        align-items: center; 
-    }
-        */
-
-
-    /* .profile_info{
-        display: flex;
-        flex-direction: column;
-        align-items: start;
-    } */
-
-    .projectCard > img{
-        /* margin-top: 1rem; */
-        /* height: 20rem;
-        width: 27rem; */
-    }
 } 
 
 
 @media screen and (min-width: 1400px){
-   /* changed from 1200px, also changed the medium media query to 1000px; */
-    /* *{
-        font-size: 24px;
-    } */
 
     .navbar_hero > ul > li > a{
         font-size: 1.3rem;
@@ -383,7 +326,11 @@ body{
     .projects_container,
     .contact_container{
         margin: 0 8rem;
-        /* margin: 2rem 4rem; */
+    }
+
+    .fa-brands{
+        font-size: 3.5rem;
+        margin: 10px;
     }
 
     .profile_card{
@@ -401,21 +348,11 @@ body{
         align-items: start;
     }
     
-    /* .project_cardContainer{
-        display:flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        width: 100%;
-        height: 80vh;
-    }  */
-    
     .project_cardContainer{
         display: flex;
         justify-content: center;
         max-width: 150vw;
         flex-wrap: wrap;
-        /* check flex-wrap again, see if want to keep as 3 columns */
-        /* margin: 0 auto; */
     }
     
     .projectCard{
@@ -434,8 +371,6 @@ body{
     }
     
     .projectCard > img{
-        /* height: 18rem;
-        width: 22rem; */
         width: 100%;
         min-width: 26rem;
         margin-top: 2rem;
@@ -483,22 +418,11 @@ textarea{
     display: flex;
     flex-direction: column;
     margin-bottom: 2rem;
-    /* height: 25vh; */
-    /* justify-content: space-between;  */
-    /* align-items: start;  */
-    /* justify-content: center; */
-    /* width: 10rem; */
 }
 
 .contact_container > form > input{ 
     margin-bottom: 1rem;
 }
-
-/* .msg_form{
-    width: 100%;
-    text-align: left;
-    position: relative;
-} */
 
 .contact_container > form > button{
     margin: 0 auto;
@@ -599,10 +523,6 @@ a{
 }
 
 .wrapper .section .top_navbar{
-    /* background: rgb(7, 105, 185); */
-    /* background-color: transparent;
-    z-index: 2;
-    max-width: 100rem;  */
     z-index: 1;
     width: 100%;
     height: 50px;
@@ -610,8 +530,6 @@ a{
     align-items: center;
     padding: 0 5px;
     position: relative;
-    /* just changed this */
-
 }
 
 .hamburger2{
@@ -620,13 +538,7 @@ a{
 
 .wrapper .section .top_navbar .hamburger2 a{
     font-size: 40px;
-    /* color: #f4fbff; */ 
-    /* check this later */
     color: #000;
-}
-
-.wrapper .section .top_navbar .hamburger2 a:hover{
-    /* color: #a2ecff; */
 }
 
 body.active .wrapper .sidebar{
