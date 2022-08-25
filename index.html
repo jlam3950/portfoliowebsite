@@ -42,7 +42,6 @@
         </div>
         
         <div class="section header">
-            <!-- added header to inherit transparent background -->
             <div class="top_navbar">
                 <div class="navbar_hero">
                     <ul>
@@ -104,10 +103,11 @@
                         </h2>         
                    </div>
                    <p class="about_paragraph">
-                       Hi, I'm Jeff L. I first got interested in programming during high school, spending countless hours using Blizzard's map editor to create games utilizing triggers, loops, and different animations. More than anything, I enjoyed the satisfaction of seeing my 'code' come to life. Despite this interest in programming, I decided to enter the healthcare industry, and have been working as a physical therapist for 5 years. In 2020, I decided that I wanted to learn more about the field of computer science, and enrolled in Harvard's CS50 Introduction to Computer Science. I continued self studying before joining Digital Craft's Software Developer bootcamp in 2022. 
+                       Hi, I'm Jeff L. I have worked as an orthopedic physical therapist for the past five years. I picked up coding as a hobby in 2019 when I became interested in developing small applications, and websites. It quickly turned into more than a hobby, and I became fascinated with the logic of programming. I began taking online computer science courses(Harvard's CS50 and MIT's Intro to Python), and enrolled in Digital Craft's software developer bootcamp in 2022. 
+                       
                    </p>
                    <p class="about_paragraph">
-                       I work with both front end and back end development, and enjoy crafting a seamless user experience. One of my future goals is to provide mentorship to those underrepresented in the tech community. I also have a passion for rock climbing, and 🍕 making. 
+                       I work with both front end,and back end, development. I also have an interest in UI/UX design. One of my future goals is to provide mentorship to those underrepresented in the tech community. I also have a passion for rock climbing, and 🍕 making. 
                    </p>
                    <div class="profile_card">
                        <div class="profile_img">
@@ -128,7 +128,7 @@
                             <i class="fa-brands fa-node-js" style = 'color:rgb(102,152,81)'></i>
                             <i class="fa-brands fa-react" style = 'color:rgb(93,207,238)'></i>
                             <i class="fa-brands fa-bootstrap" style = 'color:rgb(82,58,118)'></i>
-                            <i class="fa-brands fa-sass" style = 'color:rgb(194,98,145)'></i>
+                            <!-- <i class="fa-brands fa-sass" style = 'color:rgb(194,98,145)'></i> -->
                         </div>
                    </div>
                </div>
@@ -138,10 +138,24 @@
                    <h2 class="projects_header">
                        Projects
                    </h2>
-                   <!-- <p>
-                       Listed below are a few of the projects that I have been working on. 
-                   </p> -->
                 <div class="project_cardContainer">
+                    <div class="projectCard">
+                        <h3 class="card_header">Climb Shop</h3>
+                        <p class="card_info">Front-end e-commerce website built with React, Redux, and Axios. Feautres working payment via Paypal. Responsive design.</p>
+                        
+                        <div class="tech_card_container">
+                            <span class = 'tech_card'>React</span>
+                            <span class = 'tech_card'>Redux</span>
+                            <span class = 'tech_card'>Javascript</span>
+                            <span class = 'tech_card'>Axios</span>
+                            <span class = 'tech_card'>Bootstrap</span>
+                        </div>
+                        <img src ="./images/ClimbShop.png" alt='projectCardPhoto'>
+                        <div class ='link_container'>
+                            <a href="https://github.com/jlam3950/react-climb-ecommerce-siteP" class="repo_link">Github Repo</i></a>
+                            <a href="https://climb-shop.netlify.app" class="site_link">Website</i></a>
+                        </div>
+                    </div>
                     <div class="projectCard">
                         <h3 class="card_header">Weatherify</h3>
                         <p class="card_info">A full-stack application that utilizes the Spotify API to create custom playlists for you based on weather patterns. </p>
@@ -154,10 +168,15 @@
                             <span class = 'tech_card'>PostgreSQL</span>
                             <span class = 'tech_card'>OAuth</span>
                         </div>
-                        <img src ="./images/weatherifyLogin.png" alt='projectCardPhoto'>
-                        <!-- <div>
-                            <a href="https://github.com/jlam3950" class="repo_link">Repository</i></a>
-                        </div> -->
+                        <!-- <img src ="./images/weatherifyLogin.png" alt='projectCardPhoto'> -->
+                            <video class ='movie' controls>
+                                <source src="./videos/Weatherify.mp4" type="video/mp4">
+                                Your browser does not support the video tag.
+                            </video>
+                        
+                        <div class ='link_container'>
+                            <a href="https://github.com/jlam3950/Projects/tree/main/SpotifyAPP" class="repo_link">Github Repo</i></a>
+                        </div>
                     </div>
                     <div class="projectCard">
                         <h3 class="card_header">Portfolio Website</h3>
@@ -168,34 +187,28 @@
                             <span class = 'tech_card'>Javascript</span>
                         </div>
                         <img src ="./images/PortfolioWebsite.png" alt='projectCardPhoto'>
+                        
+                        <div class ='link_container'>
+                            <a href="https://github.com/jlam3950/Projects/tree/main/PortfolioWebsite" class="repo_link">Github Repo</i></a>
+                        </div>
                     </div>
-                    <div class="projectCard">
-                        <h3 class="card_header">Scene It</h3>
-                        <p class="card_info">An application, built with Javascript, that allows you to search IMDb, and save movies to local storage.</p>
+                    <!-- <div class="projectCard">
+                        <h3 class="card_header">Concentration</h3>
+                        <p class="card_info"> A matching card game built with React. Utilizes functional components.
+                        </p>
                         <div class="tech_card_container">
                             <span class = 'tech_card'>HTML</span>
                             <span class = 'tech_card'>CSS</span>
                             <span class = 'tech_card'>Javascript</span>
-                            <span class = 'tech_card'>Bootstrap</span>
+                            <span class = 'tech_card'>React</span>
                         </div>
-                        <img src ="./images/SceneIt.png" alt='projectCardPhoto'>
-                    </div>
+                        <img src ="./images/Concentration.png" alt='projectCardPhoto'>
+                        <a href="https://github.com/jlam3950/Projects/tree/main/memory-game" class="repo_link">Github Repo</i></a>
+                    </div> -->
                 </div>
                </div>
            </section>
         
-           <!-- <section class="contact" id = 'contact'>
-               <div class="contact_container">
-                   <h2 class="contact_header">
-                       Contact Me
-                   </h2>
-                   <p class="contact_text">
-                       Please, feel free to contact me regarding any software development opportunities. 
-                   </p>
-                   <button>E-mail</button>
-               </div>
-           </section> -->
-
            <section class="contact" id = 'contact'>
                <div class="contact_container">
                    <h2 class="contact_header">
