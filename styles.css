@@ -352,7 +352,11 @@ body{
     .about_container,
     .projects_container,
     .contact_container{
+<<<<<<< HEAD
         margin: 0 12rem;
+=======
+        margin: 0 8rem;
+>>>>>>> d80fe2f13b67ae7c4efd433c3372c668fb655fa4
     }
 
     .fa-brands{
@@ -397,11 +401,14 @@ body{
     .repo_link{
         margin: 0;
     }
+<<<<<<< HEAD
 
     .site_link{
         margin: 0;
     }
 
+=======
+>>>>>>> d80fe2f13b67ae7c4efd433c3372c668fb655fa4
     
     .projectCard > img{
         width: 100%;
@@ -415,8 +422,12 @@ body{
         width: 100%;
         min-width: 30rem;
         margin-top: 2rem;
+<<<<<<< HEAD
         margin-bottom: .5rem; 
         padding: 0 1rem;
+=======
+        margin-bottom: .5rem;
+>>>>>>> d80fe2f13b67ae7c4efd433c3372c668fb655fa4
     }
 
     .tech_card_container{
