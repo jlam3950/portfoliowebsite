@@ -115,11 +115,6 @@ body{
 
 /* About */
 
-#about{
-    display: flex;
-    justify-content: center;
-}
-
 .about_container{
     background-color: rgb(20,30,48);
     display: flex;
