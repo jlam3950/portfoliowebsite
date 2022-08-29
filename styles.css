@@ -132,6 +132,14 @@ body{
 
 /* About */
 
+.icon_div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 .25rem;
+    font-size: .8rem;
+}
+
 .about_container{
     background-color: rgb(20,30,48);
     display: flex;
