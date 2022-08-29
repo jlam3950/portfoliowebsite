@@ -146,7 +146,7 @@ body{
     justify-content: center;   
     flex-wrap: wrap;
     padding: 2rem;
-    max-width: 100rem;
+    max-width: 100%;
     color: white;
 }
 
