@@ -140,6 +140,31 @@ body{
     font-size: .8rem;
 }
 
+.icon_div:hover{
+    transform:scale(1.1);
+    transition: ease .5s;
+    cursor: pointer;
+}
+
+.icon_img{
+    width: 45px;
+    height: 45px;
+    margin-top: 10.5px;
+    margin-bottom: 8px;
+}
+
+/* .icon_div:nth-child(7){
+    margin: 0 8px;
+}
+
+.icon_div:nth-child(8){
+    
+    margin: 0 8px;
+}
+.icon_div:nth-child(9){
+    margin: 0 8px;
+} */
+
 .about_container{
     background-color: rgb(20,30,48);
     display: flex;
@@ -174,10 +199,11 @@ body{
     align-items: center;
     border-radius: 10px; 
     min-width: 21.25rem;
-    max-width: 30rem;
+    max-width: 40rem;
     background: linear-gradient(to left top, rgb(20, 30, 48), rgba(227, 227, 227, 0.3));
     padding: 0 2rem;
     margin-top: 4em;
+    
 }
 
 .profile_sub{
@@ -216,6 +242,20 @@ body{
     margin-bottom: 10px;
 }
 
+.row{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%; 
+    flex: 1;
+}
+
 .fa-brands{
     font-size: 2.7rem;
     margin: 10px;
@@ -235,9 +275,6 @@ body{
     max-width: 100%;
     color: white;
 }
-
-
-
 
 .projects_header{
     font-weight: 550;
@@ -351,11 +388,6 @@ body{
     color: rgb(213, 204, 204);
 }
 
-/* .footer_links > a > i:hover{
-    cursor: pointer;
-    transform: scale(1.2);
-} */
-
 @media screen and (max-width: 800px){
 
    .hero_content{
@@ -371,13 +403,25 @@ body{
     .contact_container{
         margin: 0 3rem;
     }
+
+    .contact_container > form{
+        min-width: 35rem;
+    }
+
+    .email_form{
+        font-size: 1.5rem;
+    }
+
+    .msg_form{
+        font-size: 1.5rem;
+    }
 } 
 
 
 @media screen and (min-width: 1400px){
 
     .navbar_hero > ul > li > a{
-        font-size: 1.rem;
+        font-size: 2rem;
     }
 
     .about_container,
@@ -416,11 +460,11 @@ body{
     
     .projectCard{
         display: flex;
-        min-width: 40rem;
-        max-width: 45rem;
         flex: 1;
         flex-direction: column;
         align-items: center;
+        min-width: 40rem;
+        max-width: 45rem;
         margin: 2rem 1rem;
         padding: 0 1.5rem;
         padding-bottom: .5rem;
@@ -456,18 +500,17 @@ body{
         height: 4rem;
         gap: .5rem;
     }
-} 
 
-@media screen and (min-width: 1400px){
-
-    .navbar_hero > ul > li > a{
-        font-size: 1.3rem;
+    /* skills_img_logo */
+    .icon_img{
+        width: 55px;
+        height: 53px;
+        margin-top: 10px;
+        margin-bottom: 13px;
     }
-
-    .about_container,
-    .projects_container,
-    .contact_container{
-        margin: 0 12rem;
+    
+    .contact_container > form{
+        min-width: 45rem;
     }
 } 
 
@@ -487,7 +530,6 @@ textarea{
     align-items: center;
     min-width: 10rem;
 }
-
 
 .contact_text{
     margin-bottom: 2rem;
@@ -665,4 +707,5 @@ body.active .wrapper .section{
         background-size: 200vh 140vh;
     }
 } 
+
 
