@@ -240,6 +240,7 @@ body{
     flex-wrap: wrap;
     justify-content: center;
     margin-bottom: 10px;
+    min-width: 20rem;
 }
 
 .row{
