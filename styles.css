@@ -222,7 +222,7 @@ body{
 }
 
 .profile_info > p:nth-child(4){
-    font-size: .8rem;
+    font-size: .9rem;
     margin-left: 1rem;
 }
 
@@ -410,11 +410,20 @@ body{
     }
 
     .email_form{
-        font-size: 1.5rem;
+        font-size: 1.3rem;
     }
 
     .msg_form{
-        font-size: 1.5rem;
+        font-size: 1.3rem;
+    }
+
+    .profile_info{
+        font-size: 1.2rem;
+    }
+
+    .profile_info > p:nth-child(4){
+        font-size: 1rem;
+        margin-left: 1rem;
     }
 } 
 
@@ -513,6 +522,19 @@ body{
     .contact_container > form{
         min-width: 45rem;
     }
+
+    .icon_div{
+        padding: 0 0.75rem;
+    }
+
+    .about_paragraph{
+        font-size: 1.25rem;
+    }
+
+    .icon_description{
+        font-size: 1.05rem;
+    }
+    
 } 
 
 /* contacts */
