@@ -100,14 +100,18 @@
                              About Me
                         </h2>         
                    </div>
-                   <p class="about_paragraph">
-                     I've worked as a physical therapist for the past six years, and am now looking to pivot into a role as a software developer.  I picked up coding as a hobby in 2020 when I became interested in building small applications, and websites. I found myself looking forward to the spare time I could dedicate towards learning to code, and it quickly became more than a hobby. I began taking online computer science courses (Harvard's CS50 and MIT's Intro to Python), and enrolled in Digital Craft's software developer bootcamp in 2022. 
-
-                   </p>
-
-                   <p class="about_paragraph">
-                       I work with both front-end,and back-end, development. I also have an interest in UI/UX design. One of my future goals is to provide mentorship to those underrepresented in the tech community. I also have a passion for rock climbing, and 🍕 making. 
-                   </p>
+                   <div class = 'paragraph_profile_container'>
+                   <div class = 'paragraph_container'>
+                    <div class = 'paragraph_img'>
+                        <img class = 'about_img' src = './images/about_img.jpeg'>
+                    </div>
+                        <p class="about_paragraph">
+                            I've worked as a physical therapist for the past six years, and am now looking to pivot into a role as a software developer.  I picked up coding as a hobby in 2020 when I became interested in building small applications, and websites. I found myself looking forward to the spare time I could dedicate towards learning to code, and it quickly became more than a hobby. I began taking online computer science courses (Harvard's CS50 and MIT's Intro to Python), and enrolled in Digital Craft's software developer bootcamp in 2022. 
+                        </p>
+                        <p class="about_paragraph">
+                            I work with both front-end,and back-end, development. I also have an interest in UI/UX design. One of my future goals is to provide mentorship to those underrepresented in the tech community. I also have a passion for rock climbing, and 🍕 making. 
+                        </p>
+                   </div>
                    <div class="profile_card">
                        <div class="profile_img">
                            <img src= "">
@@ -163,43 +167,6 @@
                                       </div>
                                 </div>
                             </div>
-                            <!-- <div class = 'icon_div'>
-                                <i class="fa-brands fa-html5" style = 'color:rgb(200, 84,51)'></i>
-                                    <span class = 'icon+description' style ='color:white'>HTML</span>
-                             </div>
-                             <div class = 'icon_div'>
-                                <i class="fa-brands fa-css3-alt" style = 'color:rgb(46,72,209)'></i>
-                                    <span class = 'icon+description' style ='color:white'>CSS</span>
-                             </div> -->
-                            <!-- <div class = 'icon_div'>
-                                <i class="fa-brands fa-js" style = 'color:rgb(224,209,99)'></i>
-                                    <span class = 'icon+description' style ='color:white'>Javascript</span>
-                             </div>
-                            <div class = 'icon_div'>
-                                <i class="fa-brands fa-node-js" style = 'color:rgb(102,152,81)'></i>
-                                    <span class = 'icon+description' style ='color:white'>Node.js</span>
-                             </div> -->
-                            <!-- <div class = 'icon_div'>
-                                <i class="fa-brands fa-react" style = 'color:rgb(93,207,238)'></i>
-                                    <span class = 'icon+description' style ='color:white'>React</span>
-                             </div>
-                             <div class = 'icon_div'>
-                                 <i class="fa-brands fa-bootstrap" style = 'color:rgb(82,58,118)'></i>
-                                     <span class = 'icon+description' style ='color:white'>Bootstrap</span>
-                              </div> -->
-                              <!-- <div class = 'icon_div'>
-                                  <img src = './icon_images/tailwind.png' alt = '' class ='icon_img'>
-                                  <span class = 'icon+description' style ='color:white'>Tailwind</span>
-                                </div>
-                                <div class = 'icon_div'>
-                                    <img src = './icon_images/mongoDB.png' alt = '' class ='icon_img'>
-                                    <span class = 'icon+description' style ='color:white'>MongoDB</span>
-                                </div> -->
-                                <!-- <div class = 'icon_div'>
-                                   <img src = './icon_images/redux.png' alt = '' class ='icon_img'>
-                                       <span class = 'icon+description' style ='color:white'>Redux</span>
-                                </div> -->
-                            <!-- <i class="fa-brands fa-sass" style = 'color:rgb(194,98,145)'></i> -->
                         </div>
                    </div>
                </div>
@@ -210,6 +177,25 @@
                        Projects
                    </h2>
                 <div class="project_cardContainer">
+                    <div class="projectCard">
+                        <h3 class="card_header">What's Good?</h3>
+                        <p class="card_info">Full-stack MERN Application that allows users to find the highest rated items at a restaurant. Built with react, redux, mongoDB. Utilizes the Yelp API and Google maps API, and features user authentication via passport JS.</p>
+                        
+                        <div class="tech_card_container">
+                            <span class = 'tech_card'>React</span>
+                            <span class = 'tech_card'>Redux</span>
+                            <span class = 'tech_card'>MongoDB</span>
+                            <span class = 'tech_card'>Passport JS</span>
+                            <span class = 'tech_card'>O Auth</span>
+                            <span class = 'tech_card'>Tailwind CSS</span>
+                            <span class = 'tech_card'></span>
+                        </div>
+                        <img src ="./images/whatsgood.jpg" alt='projectCardPhoto'>
+                        <div class ='link_container'>
+                            <a href="https://github.com/jlam3950/whats-good" class="repo_link">Github Repo</i></a>
+                            <a href="https://whatsgoodapp.herokuapp.com" class="site_link">Website</i></a>
+                        </div>
+                    </div>
                     <div class="projectCard">
                         <h3 class="card_header">Climb Shop</h3>
                         <p class="card_info">Front-end e-commerce website built with React, Redux, and Axios. Features working payment via Paypal. Responsive design.</p>
