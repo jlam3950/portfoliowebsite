@@ -539,10 +539,21 @@ body{
    .hero_content{
     top: 25%;
    }
-
 }
 
 @media screen and (max-width: 600px){
+
+    .paragraph_container{
+        margin: -1.75rem;
+    }
+
+    .projectCard{
+        margin: 2rem -.75rem;
+    }
+
+    .card_info{
+        margin: 1rem 1rem;
+    }
 
    .profile_skills{
     width:10rem;
@@ -558,15 +569,23 @@ body{
 }
 } 
 
+@media screen and (max-width: 450px){
+
+    .card_info{
+        margin-bottom: 2rem;
+    }
+
+} 
+
 @media screen and (min-width: 600px) and (max-width: 800px){
 
    .profile_skills{
     width: 30rem;
    }
 
-   .card_info{
+   /* .card_info{
     margin-bottom: 3rem;
-   }
+   } */
 } 
 
 
