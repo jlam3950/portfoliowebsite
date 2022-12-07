@@ -11,7 +11,9 @@
 
 My portfolio website. Always a work in progress. 
 
-Live: https://jlam3950.netlify.app
+** Website is currently down as heroku has removed their free tier. Will migrate to netlify, firebase. 
+
+Live: https://jefflwhatsgood.herokuapp.com/
 
 ## Features
 - Clean, responsive design 
